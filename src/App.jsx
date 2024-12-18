@@ -1,21 +1,18 @@
-// import { useState } from 'react'
-import './index.css'
-import Header from './components/Header'
-import HeaderForm from './components/HeaderForm'
-import Form from './components/Form'
-import Button from './components/Button'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+//import image from "./assets/react.svg";
+import HeaderComponent from "./components/HeaderComponent";
+import MainComponent from "./components/MainComponent";
+import FooterComponent from "./components/FooterComponent";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
-      <Header />
-      <Button />
-      <HeaderForm />
-      <Form />
+      <HeaderComponent />
+      <MainComponent />
+      <FooterComponent />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
