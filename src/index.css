@@ -1,0 +1,10 @@
+.unstyle {
+    list-style: none;
+}
+
+.box {
+    border: 1px solid #D3D3D3;
+    padding: 10px 20px;
+    margin-left: 46px;
+    width: 800px;
+}

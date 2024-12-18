@@ -1,5 +1,9 @@
 function Header() {
-    return <h1>Form</h1>
-}
-
-export default Header;
+    return (
+      <header className="p-3">
+        <h1>Learn Web development</h1>
+      </header>
+    );
+  }
+  
+  export default Header;
